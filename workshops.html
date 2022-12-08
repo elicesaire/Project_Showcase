@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>WorkShops</title>
 
+        <link href="index.css" rel="stylesheet" />
         <link href="sidebar.css" rel="stylesheet" />
+        <script src="sidebar.js" defer></script>
     </head>
 
     <body>
-        <h1>Oops!</h1>
-        <p>Huh thats weird??? seems like theres nothing on this page...<br />why dont you check out these other links
-        while I figure out what's going on?</p>
-
         <div class="wrapper">
-            <div class="sidebar">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                 <!-- Profile image -->
                 <div class="profile">
                     <a href="myBio.html"><img src="profile_img.jpeg" alt="" /></a>
@@ -35,6 +34,7 @@
             </div>
 
             <div class="container">
+                <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>    
                 <section class="review1">
                     <a href="Ferris Family Page/tb_ferris.html"><img src="Ferris Family Page/tb_ferris.png" alt="ferris family"></a>
                 </section>

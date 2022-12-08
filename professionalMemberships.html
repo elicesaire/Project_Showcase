@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Professional Memberships</title>
 
+        <link href="index.css" rel="stylesheet" />
         <link href="sidebar.css" rel="stylesheet" />
+        <script src="sidebar.js" defer></script>
     </head>
 
     <body>
@@ -14,7 +16,8 @@
         while I figure out what's going on?</p>
 
         <div class="wrapper">
-            <div class="sidebar">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                 <!-- Profile image -->
                 <div class="profile">
                     <a href="myBio.html"><img src="profile_img.jpeg" alt="" /></a>
@@ -33,6 +36,10 @@
                     </ul>
                 </nav>
             </div>
+        </div>
+
+        <div class="container">
+            <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
         </div>
     </body>
     

@@ -46,5 +46,3 @@ window.onmousemove = e => handleOnMove(e);
 
 window.ontouchmove = e => handleOnMove(e.touches[0]);
 
-// all thanks to this link check it out: https://codepen.io/Hyperplexed/pen/MWXBRBp?editors=0010
-// also check out the original that inspired this code: https://camillemormal.com

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>E-Commerce</title>
+
+        <link href="appliance.css" rel="stylesheet" />
+        <link href="sidebar.css" rel="stylesheet" />
+
+        <script src="sidebar.js" defer></script>
+        <script src="productCard.js" defer></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <!-- Profile image -->
+                <div class="profile">
+                    <a href="myBio.html"><img src="profile_img.jpeg" alt="" /></a>
+                    <h3>Elijah Cesaire</h3>
+                    <p>Web Developer</p>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="workshops.html">WorkShops</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="awards.html">Awards</a></li>
+                        <li><a href="professionalMemberships.html">Professional Memberships</a></li>
+                        <li><a href="appliances_homepage.html">E-Commerce</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main">
+            <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+            <h1>Browse Da Wares!!!</h1>
+
+            <div id="pages">
+                <nav>
+                    <ul>
+                        <li><a href="appliances_homepage.html">Home</a></li>
+                        <li><a href="appliances_productsPage.html">Products</a></li>
+                        <li><a href="appliances_aboutPage.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="products">
+                <div id="card1">
+                    <a href="#"><img src="Blender.jpg" alt=""></a>
+                    <div class="text">
+                        <div class="title">Ninja Professional Blender</div>
+                        <div class="price">$49.99</div>
+                    </div>
+
+                    <div class="description">
+                        <ul>
+                            <li>1000 watts of professional power and performance</li>
+                            <li>Ninja Total Crushing Blades gives you true ice-to-snow crushing, blending, pureeing, and controlled processing.</li>
+                            <li>Full 72 oz.* XL capacity to create creamy, frozen drinks and smoothies for the whole family. *64 oz. maximum liquid capacity</li>
+                            <li>Frozen blending for creamy fruit smoothies</li>
+                        </ul>
+
+                        <div class="buttons">
+                            <div class="btn"><button>Buy Now</button></div>
+                            <div class="btn"><button>Add To Cart</button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card1">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <footer>DISCLAIMER!!! this website is for a Web Technologies class and no products or services are available for purchase</footer>
+</html>

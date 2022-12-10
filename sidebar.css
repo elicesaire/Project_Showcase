@@ -5,9 +5,6 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -17,6 +14,7 @@
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
+    list-style-type: none;
     font-size: 25px;
     color: #818181;
     display: block;
@@ -42,13 +40,14 @@
     color: white;
     padding: 10px 15px;
     border: none;
+    z-index: 1;
 }
   
 .openbtn:hover {
     background-color: #444;
 }
   
-#content {
+#main {
     transition: margin-left .5s;
     padding: 16px;
 }

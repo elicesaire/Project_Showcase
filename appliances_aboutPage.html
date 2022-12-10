@@ -3,18 +3,16 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Certifications</title>
+        <title>E-Commerce</title>
 
-        <link href="index.css" rel="stylesheet" />
+        <link href="appliance.css" rel="stylesheet" />
         <link href="sidebar.css" rel="stylesheet" />
+
         <script src="sidebar.js" defer></script>
+        <script src="parallaxScroll.js" defer></script>
     </head>
 
     <body>
-        <h1>Oops!</h1>
-        <p>Huh thats weird??? seems like theres nothing on this page...<br />why dont you check out these other links
-        while I figure out what's going on?</p>
-
         <div class="wrapper">
             <div id="mySidebar" class="sidebar">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -40,9 +38,23 @@
 
         <div class="main">
             <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+            <h1>Here's what we're all about</h1>
+            <div id="pages">
+                <nav>
+                    <ul>
+                        <li><a href="appliances_homepage.html">Home</a></li>
+                        <li><a href="appliances_productsPage.html">Products</a></li>
+                        <li><a href="appliances_aboutPage.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <h2>Watch our teaser</h2>
+            <div id="teaser">
+                <iframe width="auto" height="auto" src="https://youtube.com/embed/h7o_apDfh-Q?autoplay=1&mute=1"></iframe>
+            </div>
         </div>
     </body>
     
     <footer>DISCLAIMER!!! this website is for a Web Technologies class and no products or services are available for purchase</footer>
-
 </html>

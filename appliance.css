@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url('https://img.myloview.com/stickers/set-frying-pan-chef-hat-microwave-oven-and-broken-egg-on-seamless-pattern-vector-400-269510547.jpg');
+    color: white;
+    margin: 0rem;
+    overflow: hidden;
+    user-select: none;  /* -- prevents text highlighting -- */
+}
+
+h1 {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+/* ----------------------- page navbar styles ------------------------------------- */
+#pages {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pages ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;     /* to center navbar */
+}
+
+#pages li {
+    display: inline;    /* to make nav bar horizontal */
+}
+
+#pages li a {
+    display: inline-block;
+    color:aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#pages li a:hover {
+    background: gainsboro;
+    color: deepskyblue;
+}
+
+/* -------------------------- for showcase video ------------------- */
+#teaser {
+    position: relative;
+    width: 100%;
+    height: 0%;
+    padding-bottom: 50%;
+}
+
+#teaser iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+/* ---------------------- for home page ---------------------------- */
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none;  /* -- Prevent image highlighting -- */
+}
+
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+}
+
+/* ------------------------- for products page -------------------------*/
+.products {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(45deg, #7b00e0, #ae31d9);
+}
+
+.products:hover {
+    height: 650px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.products .card1 img {
+    position: relative;
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+.products:hover .card1 img.active {
+    height: 650px;
+    width: 350px;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;;
+}
+
+.products .title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.products .price {
+    color: #fff;
+    font-size: 17px;
+    line-height: 0px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.description {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 1px 20px 10px 20px!important;
+}
+
+.description .buttons {
+    display: flex;
+}
+
+.description .btn {
+    height: 40px;
+    width: 150px;
+    margin: 0 5px;
+}
+
+.description .btn button {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.btn button:hover {
+    transform: scale(0.95);
+}

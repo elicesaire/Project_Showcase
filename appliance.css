@@ -102,7 +102,7 @@ footer {
     border-radius: 5px;
 }
 
-.products #card1 img, .products #card2 img {
+.products #card1 img, .products #card2 img, .products #card3 img {
     position: relative;
     z-index: 20;
     border-radius: 50%;
@@ -115,7 +115,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-.products:hover #card1 img.active, .products:hover #card2 img.active {
+.products:hover #card1 img.active, .products:hover #card2 img.active, .products:hover #card3 img.active {
     height: 650px;
     width: 350px;
     margin: 0px auto;
@@ -171,4 +171,9 @@ footer {
 
 .btn button:hover {
     transform: scale(0.95);
+}
+
+/* ------------------------ for policy pages ---------------- */
+#policy {
+    text-align: center;
 }
